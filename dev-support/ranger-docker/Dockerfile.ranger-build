@@ -38,6 +38,6 @@ USER ranger
 
 WORKDIR /home/ranger/git
 
-RUN git clone https://github.com/apache/ranger.git
+RUN git clone https://github.com/mercurymedia/ranger.git
 
 ENTRYPOINT [ "/home/ranger/scripts/ranger-build.sh" ]

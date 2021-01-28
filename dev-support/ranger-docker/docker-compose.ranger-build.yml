@@ -15,7 +15,7 @@ services:
     depends_on:
       - ranger-base
     environment:
-      BRANCH: 'chore/duplicate-presto-as-trino'
+      BRANCH: 'ranger-2.1.1-trino'
       SKIPTESTS: 'true'
 
 networks:
