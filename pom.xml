@@ -67,9 +67,9 @@
     </mailingLists>
     <properties>
         <maven.version.required>3.6.2</maven.version.required>
-        <java.version.required>1.8</java.version.required>
-        <javac.source.version>1.8</javac.source.version>
-        <javac.target.version>1.8</javac.target.version>
+        <java.version.required>11.0.7</java.version.required>
+        <javac.source.version>11.0.7</javac.source.version>
+        <javac.target.version>11.0.7</javac.target.version>
         <distMgmtStagingId>apache.staging.https</distMgmtStagingId>
         <distMgmtStagingName>Apache Release Distribution Repository</distMgmtStagingName>
         <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>
@@ -657,7 +657,6 @@
                 <module>plugin-nifi-registry</module>
                 <module>plugin-presto</module>
                 <module>plugin-trino</module>
-                <module>ugsync-util</module>
                 <module>ugsync</module>
                 <module>ugsync/ldapconfigchecktool/ldapconfigcheck</module>
                 <module>unixauthclient</module>
